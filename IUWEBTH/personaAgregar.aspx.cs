@@ -17,28 +17,28 @@ namespace IUWEBTH
         protected void Button1_Click(object sender, EventArgs e)
         {
             this.lblMenaje.Text = "";
-            if (txtcedula.Text.Length > 3)
+            if (txtcedula.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su cedula bien...";
                 this.txtcedula.Focus();
 
             }
-            if (txtnombre.Text.Length > 3)
+            if (txtnombre.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su Nombre bien...";
                 this.txtnombre.Focus();
             }
-            if (txtapellido.Text.Length > 3)
+            if (txtapellido.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su apellido bien...";
                 this.txtapellido.Focus();
             }
-            if (txtfecha.Text.Length > 3)
+            if (txtfecha.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su fecha bien...";
                 this.txtfecha.Focus();
             }
-            if (txtpeso.Text.Length > 3)
+            if (txtpeso.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su peso bien...";
                 this.txtpeso.Focus();
@@ -46,7 +46,7 @@ namespace IUWEBTH
             try
             {
                 
-                int x = BibliotecaDatos.Persona.insertar(this.txtcedula.Text, this.txtnombre.Text, this.txtapellido.Text, Convert.ToDateTime(txtfecha.Text), Convert.ToDouble(txtpeso.Text));
+                int x = BibliotecaDatos.Persona.insertar(this.txtcedula.Text, this.txtnombre.Text, this.txtapellido.Text, Convert.ToDateTime(this.txtfecha.Text), Convert.ToDouble(this.txtpeso.Text));
                 if (x > 0)
                 {
                     this.lblMenaje.Text = "Registrado con Exito...";
@@ -56,6 +56,7 @@ namespace IUWEBTH
             {
                 this.lblMenaje.Text = ex.Message.ToString();
             }
+            
             
         }
     }

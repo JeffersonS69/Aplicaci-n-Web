@@ -28,11 +28,11 @@ namespace BibliotecaDatos
         {
             SqlConnection conexion = new SqlConnection(cadenacon);
             string sql = "insert into personas(Cedula, Apellidos, Nombres, FechaNacimiento, Peso) ";
-            sql += "values (@cedula, @nombre, @apellido, @fechanacimiento, @peso)";
+            sql += "values (@cedula, @nombres, @apellidos, @fechanacimiento, @peso)";
             SqlCommand comando = new SqlCommand(sql, conexion);
             comando.Parameters.Add(new SqlParameter("@cedula", Cedula));
-            comando.Parameters.Add(new SqlParameter("@nombre", Nombres));
-            comando.Parameters.Add(new SqlParameter("@apellido", Apellidos));
+            comando.Parameters.Add(new SqlParameter("@nombres", Nombres));
+            comando.Parameters.Add(new SqlParameter("@apellidos", Apellidos));
             comando.Parameters.Add(new SqlParameter("@fechanacimiento", FechaNacimiento));
             comando.Parameters.Add(new SqlParameter("@peso", Peso));
             conexion.Open();
