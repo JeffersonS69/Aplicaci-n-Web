@@ -21,27 +21,36 @@ namespace IUWEBTH
             {
                 this.lblMenaje.Text = "Registre su cedula bien...";
                 this.txtcedula.Focus();
+                return;
 
             }
             if (txtnombre.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su Nombre bien...";
                 this.txtnombre.Focus();
+                return;
+
             }
             if (txtapellido.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su apellido bien...";
                 this.txtapellido.Focus();
+                return;
+
             }
             if (txtfecha.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su fecha bien...";
                 this.txtfecha.Focus();
+                return;
+
             }
             if (txtpeso.Text.Length == 0)
             {
                 this.lblMenaje.Text = "Registre su peso bien...";
                 this.txtpeso.Focus();
+                return;
+
             }
             try
             {
