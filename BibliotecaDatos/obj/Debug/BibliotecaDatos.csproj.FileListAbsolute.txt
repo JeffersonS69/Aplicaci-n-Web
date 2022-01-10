@@ -1,0 +1,6 @@
+C:\Users\ibarr\source\repos\TalentoHumano\BibliotecaDatos\bin\Debug\BibliotecaDatos.dll
+C:\Users\ibarr\source\repos\TalentoHumano\BibliotecaDatos\bin\Debug\BibliotecaDatos.pdb
+C:\Users\ibarr\source\repos\TalentoHumano\BibliotecaDatos\obj\Debug\BibliotecaDatos.csproj.AssemblyReference.cache
+C:\Users\ibarr\source\repos\TalentoHumano\BibliotecaDatos\obj\Debug\BibliotecaDatos.csproj.CoreCompileInputs.cache
+C:\Users\ibarr\source\repos\TalentoHumano\BibliotecaDatos\obj\Debug\BibliotecaDatos.dll
+C:\Users\ibarr\source\repos\TalentoHumano\BibliotecaDatos\obj\Debug\BibliotecaDatos.pdb

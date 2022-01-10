@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "932fedd0-553e-4408-9197-93d145e8bb72": {
+      "ProjectGuid": "932fedd0-553e-4408-9197-93d145e8bb72",
+      "DisplayName": "BibliotecaDatos",
+      "ColorIndex": 0
+    },
+    "063ec146-2e86-4dd1-abd4-e91705543b0e": {
+      "ProjectGuid": "063ec146-2e86-4dd1-abd4-e91705543b0e",
+      "DisplayName": "InterfazUsuarioWindows",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

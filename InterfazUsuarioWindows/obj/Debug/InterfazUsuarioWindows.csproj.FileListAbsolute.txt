@@ -1,0 +1,13 @@
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\bin\Debug\InterfazUsuarioWindows.exe.config
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\bin\Debug\InterfazUsuarioWindows.exe
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\bin\Debug\InterfazUsuarioWindows.pdb
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\bin\Debug\BibliotecaDatos.dll
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\bin\Debug\BibliotecaDatos.pdb
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.csproj.AssemblyReference.cache
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.frmGetPersonas.resources
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.Properties.Resources.resources
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.csproj.GenerateResource.cache
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.csproj.CoreCompileInputs.cache
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.csproj.CopyComplete
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.exe
+C:\Users\ibarr\source\repos\TalentoHumano\InterfazUsuarioWindows\obj\Debug\InterfazUsuarioWindows.pdb
